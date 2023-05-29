@@ -33,6 +33,6 @@ public class AppTest {
         Assert.assertEquals(clientProfile.getMobile(), client.getMobile());
 
         Assert.assertEquals(clientProfile.getMembershipStartDate(), "<Today's Date>");
-
     }
+
 }
