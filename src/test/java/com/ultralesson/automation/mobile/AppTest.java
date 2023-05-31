@@ -20,22 +20,22 @@ public class AppTest {
     @Test
     public void clientShouldBeAbleToSignupSuccessfully() {
         //Arrange
-
-            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-            desiredCapabilities.setCapability("deviceName","emulator-5554");
-            desiredCapabilities.setCapability("platformName", "android");
-            desiredCapabilities.setCapability("appPackage", "com.ultralesson.coach");
-            desiredCapabilities.setCapability("appActivity", "com.ultralesson.coach.MainActivity");
 //
-
-        AppiumDriver mobileDriver = new DriverCreator().create(desiredCapabilities);
-
-        LauncherScreen launcherScreen = new LauncherScreen(mobileDriver);
-        launcherScreen.navToClientSignup();
-        User client = new User("poojitha@gmail.com",
-                "password",
-                "Automation Client",
-                "1234567890");
+//            DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+//            desiredCapabilities.setCapability("deviceName","emulator-5554");
+//            desiredCapabilities.setCapability("platformName", "android");
+//            desiredCapabilities.setCapability("appPackage", "com.ultralesson.coach");
+//            desiredCapabilities.setCapability("appActivity", "com.ultralesson.coach.MainActivity");
+////
+//
+//        AppiumDriver mobileDriver = new DriverCreator().create(desiredCapabilities);
+//
+//        LauncherScreen launcherScreen = new LauncherScreen(mobileDriver);
+//        launcherScreen.navToClientSignup();
+//        User client = new User("poojitha@gmail.com",
+//                "password",
+//                "Automation Client",
+//                "1234567890");
 
 //        //Act
 //        SignupScreen signupScreen = new SignupScreen(mobileDriver);
